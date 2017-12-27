@@ -1,0 +1,106 @@
+*{
+	background-color: white;
+}
+.DaySelection{
+	margin: auto;
+	
+}
+.title{
+	clear: both;
+	width: 100%;
+	height: 80px;
+	text-align: center;
+	font-size: 30px;
+	color: #999;
+}
+.title p{
+	padding: 20px;
+}
+.piclist{
+	width: 90%;
+	margin: auto;
+	
+}
+.picture{
+	width: 19%;
+	height: 370px;
+	float: left;
+	display: block;
+	margin-left: 3.2em;
+	margin-top: 0.5em;
+	margin-bottom: 0.8em;
+}
+.ptop{
+	width: 100%;
+	height:80%;
+}
+.shadowed{
+	box-shadow: 
+	5px 5px 0 0 rgba(0,0,0,0.1);
+
+}
+.pbottom{
+	width: 12%;
+	height: 20px;
+	padding: 17px;
+	background:#FFF;
+	position: absolute;	
+	margin-left: 1.6em;
+	margin-bottom: -25px;
+	text-align: center;
+	color: #00C5CD; 
+	font-size: 17px;
+}
+.shadowed:hover{
+	box-shadow: 
+	5px 5px 0 0 rgba(237,109,0,0.9);
+}
+.designimg{
+	padding-left: 4.8em;
+	margin-top: 1em;
+	padding-bottom: 1.3em;
+}
+.left-pic{
+	width: 45%;
+	float: left;
+	margin-left: 2.2em;
+	margin-right: 1.7em;
+	margin-top: 2em;
+}
+.right-pic{
+	width: 45%;
+	float: left;
+	margin-top: 2em;
+}
+.right-pic img{
+	margin-bottom: 2em;
+	margin-right: 1.4em;
+}
+footer{
+	clear: both;
+	height: 300px;
+	margin-top: 2em;
+	background: #E7E7E7;
+}
+.tab{
+	margin: auto;
+	padding-top: 3em;
+	padding-bottom: 0.8em;
+	background-color:#E7E7E7;
+	filter:Alpha(opacity=50);
+	font-size: 23px;
+	font-weight: normal;
+	color: #00C5CD;
+	padding-right: 6em;
+    
+}
+.tabtd{
+	background-color:#E7E7E7;
+	filter:Alpha(opacity=50);
+	font-size: 14px;
+	color: #000;
+	padding-right: 6em;
+	padding-left: 0.2em;
+	padding-bottom: 0.4em;
+}
+

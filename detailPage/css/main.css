@@ -1,0 +1,269 @@
+.headpiece{
+	width: 93%;
+	margin:auto;
+}
+.left{
+	width: 23%;
+	height:550px;
+	float: left;
+	margin-left: 1.4em;
+	margin-right: 1.6em; 
+	background-color: #eee;
+
+}
+.centerImg{
+	width: 35%;
+	height: 400px;
+	float: left;
+}
+.right{
+	width: 32%;
+	height: 400px;
+	margin-left: -0.4em;
+	float: left;
+}
+
+.left-title{
+	width: 100%;
+	float: left;
+	font-size: 20px;
+	font-style: "微软雅黑";
+	margin-top: 0.8em;
+	margin-left: 2em;
+	opacity: 0.8;
+}
+.left-text{
+	clear: both;
+	width: 100%;
+	float: left;
+	margin-top: 0.7em;
+	font-size: 14px;
+	font-style: "微软雅黑";
+	opacity: 0.7;
+}
+.left-text ul{
+	width: 100%;
+	float: left;
+}
+.left-text ul li{
+	float: left;
+	width: 100%;
+	list-style: none;
+	margin-bottom: 0.4em;
+}
+.img-keeper{
+	width: 100%;
+	float: left;
+	margin-top: 0.5em;
+	margin-left: 2em;
+}
+.brand-story{
+	width: 100%;
+	float: left;
+	font-size: 14px;
+	font-style: "微软雅黑";
+	margin-left: 2em;
+	opacity: 0.8;
+}
+.brand-story img{
+	float: left;
+	opacity: 1;
+}
+.brand-story p{
+	width: 80%;
+	float: left;
+}
+.lshop-button{
+	width: 100%;
+	height:100px;
+	margin-left: 2em;
+}
+.left-tab{
+	width: 100%;
+	height: 400px;
+	margin-top: 7em;
+	font-size: 14px;
+	float: left;
+	background-color: #eee;
+}
+.left-tab p{
+	margin-left: 1em;
+
+}
+.left-tab ul{
+	width: 100%;
+	margin-left: -0.8em;
+	margin-bottom: 0.4em;
+	margin-bottom: #fff 1px solid;
+}
+.left-tab ul li{
+	width: 100%;
+	list-style: none;
+	margin-bottom:0.3em;
+	color: #229ca0;
+	border-bottom: 1px solid #fff;
+}
+.right-title{
+	width: 100%;
+	float: left;
+	font-size: 20px;
+	font-style: "微软雅黑";
+	margin-top: 0.8em;
+	margin-left: 2em;
+	opacity: 0.9;
+}
+.detail-info{
+	float: left;
+	width: 100%;
+	margin-left: 0;
+	padding-left: 0;
+	opacity: 0.7;
+	font-size: 15px;
+	font-style: "微软雅黑";
+	margin-top: 0.8em;
+}
+.detail-info ul{
+	margin-top: 2.5em;
+}
+.detail-info ul li{
+	float: left;
+	width: 100%;
+	margin-bottom: 1em;
+	list-style: none;
+}
+.shopcar{
+	float: left;
+	width: 100%;
+}
+.detail-nav{
+	width: 70%;
+	margin-top: 4em;
+	float: left;
+}
+#tab{
+	width: 100%;
+	float: left;
+	margin-left: 2em;
+}
+#tab ul{
+	list-style: none;
+	display: ;
+	height: 55px;
+	line-height: 50px;
+	border-bottom: 1px #CCC solid;
+}
+#tab ul li{
+	width: 100px;
+	height: 45px;
+	background: #FFF;
+	cursor:pointer;
+	float: left;
+	list-style: none;
+	height: 49px;
+	line-height: 49px;
+	margin-right: 0.7em;
+	text-align: center;
+}
+#tab ul li.on{
+	border-top: 1px solid #CCC;
+	border-right:1px solid #CCC;
+	border-left:1px solid #CCC; 
+}
+.hide{
+	display: none;
+}
+.p_img{
+	margin-top: 3em;
+	margin-bottom: 2em;
+	font-size: 18px;
+	color: #e06666;
+	font-family: kaiti_gb2312;
+}
+.p_img p{
+	width: 80%;
+	text-align: center;
+	
+}
+
+
+
+ #div1{
+        width: 420px;
+        height: 400px;
+        padding: 5px;
+        position: relative;
+    }
+    #div1 .small_pic{
+        width: 420px;
+        height: 400px;
+        background: #eee;
+        position: relative;
+    }
+    #div1 .float_layer{
+        width: 100px;
+        height: 100px;
+        border:1px solid #000;
+        background: #fff;
+        filter: alpha(opacity:30);
+        opacity: 0.3;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: none;
+    }
+    #div1 .mark{
+        width: 100%;
+        height:100%;
+        position: absolute;
+        z-index: 2;
+        left: 0px;
+        top: 0px;
+        background: red;
+        filter: alpha(opacity:0);
+        opacity: 0;
+    }
+    #div1 .big_pic{
+        position: absolute;
+        top: 0px;
+        left: 220px;
+        width: 250px;
+        height: 250px;
+        overflow: hidden;
+        border: 2px solid #ccc;
+        display: none;
+
+    }
+    #div1 .big_pic img{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        
+    }
+footer{
+	clear: both;
+	width: 100%;
+	height: 300px;
+	margin-top: 2em;
+	background: #E7E7E7;
+}
+.tab{
+	margin: auto;
+	padding-top: 3em;
+	padding-bottom: 0.8em;
+	background-color:#E7E7E7;
+	filter:Alpha(opacity=50);
+	font-size: 23px;
+	font-weight: normal;
+	color: #00C5CD;
+	padding-right: 6em;
+    
+}
+.tabtd{
+	background-color:#E7E7E7;
+	filter:Alpha(opacity=50);
+	font-size: 14px;
+	color: #000;
+	padding-right: 6em;
+	padding-left: 0.2em;
+	padding-bottom: 0.4em;
+}
